@@ -8,7 +8,6 @@ import jakarta.persistence.*;
 @Table(name = "transactions")
 public class Transaction {
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
